@@ -1,17 +1,17 @@
-import data from '../../data/db';
-import "./Tours.css" 
+import './Tours.css';
+import { Link } from "react-router-dom";
+import React from "react";
+import Tour from './tour/Tour';
 
-function Tours() {
+const Tours = ({tours}) => {
     return (
-        <div id='Tours'>
-            {data.map((x) => {
-                return (
-                    <div>
-                        <div>This is : {x.name} </div>
-                        <div><img src={x.image} alt=' ' /></div>
-                    </div>
-                );
-            })}
+        <div id='Tourrs'>
+            {tours.map((x) => (
+                <div key={x.id}>
+                    <Link to={`/x/${x.id}`}>
+                    <Tour x={x} /> </Link>
+                </div>
+            ))}
         </div>
     );
 }

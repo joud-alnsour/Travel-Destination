@@ -1,13 +1,11 @@
 import "./Tour.css" 
+import React from "react";
 
-function Tour(props)
-{
-    return(
+const Tour =({x}) => {
+    return (
     <div id='Tourr'>
-        <h1>{props.tour.name}</h1>
-        <img src={props.tour.image} alt="any"></img>
+    <h1>Tour Name : {x.name}</h1>
+    <img src={x.image} alt="imgTour"></img>
     </div>
-
-    );
-}
-export default Tour;
+    )}
+    export default Tour;
