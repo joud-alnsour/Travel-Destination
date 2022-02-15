@@ -1,8 +1,9 @@
 import data from '../../data/db';
+import "./Tours.css" 
 
 function Tours() {
     return (
-        <div>
+        <div id='Tours'>
             {data.map((x) => {
                 return (
                     <div>

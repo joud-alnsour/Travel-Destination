@@ -1,15 +1,10 @@
-import Header from '../header/Header';
-import Tours from '../tours/Tours';
-import Footer from '../footer/Footer';
-import data from '../../data/db';
-function Home() {
-
+ import Tours from '../tours/Tours';
+ import "./Home.css" 
+function Home(props) {
     return (
-      <>
-        <div><Header/></div>
-        <div><Tours data={data}/></div>
-        <div><Footer/></div>
-      </>
+      <div id='Hoome' > 
+        <div><Tours data={props.data}/></div>
+      </div>
     )
   }
   export default Home;

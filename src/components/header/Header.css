@@ -1,0 +1,6 @@
+#headerr{
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgb(238, 234, 234), rgb(85, 63, 42)) ;
+    }

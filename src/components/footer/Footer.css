@@ -1,0 +1,6 @@
+#foooter{
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    background-image: linear-gradient(to left , rgb(238, 234, 234), rgb(85, 63, 42)) ;
+    }
