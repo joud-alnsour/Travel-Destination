@@ -1,9 +1,13 @@
- import Tours from '../tours/Tours';
+import Tours from '../tours/Tours';
  import "./Home.css" 
-function Home(props) {
+ import Header from '../header/Header.js';
+ import Footer from '../footer/Footer.js';
+ function Home(props) {
     return (
       <div id='Hoome' > 
-        <div><Tours data={props.data}/></div>
+      <Header/>
+        <Tours data={props.data} /> 
+      <Footer/>
       </div>
     )
   }

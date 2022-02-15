@@ -7,9 +7,9 @@ import './Navbar.css';
   return (
      
         <div id='Navvbar'>
-          <Link to="/">
-            Home
-          </Link>
+           <Link to='/'>Home</Link>
+           <Link to='/city/:id'>city</Link>
+
           </div>
 
     

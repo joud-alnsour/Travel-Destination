@@ -1,5 +1,9 @@
-#tourr{
+#tourDetails{
 align-items: center;
 width: 50%;
 flex-direction: column;
+}
+ 
+button{
+    color: rgb(174, 123, 221);
 }

@@ -1,5 +1,9 @@
 #Tourr{
     align-items: center;
-    width: 50%;
-    flex-direction: column;
+    
+    
+    }
+    img {
+        width: 50%;
+        height: 50%;
     }
