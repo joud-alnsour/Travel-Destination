@@ -1,6 +1,7 @@
+import "./Footer.css" 
 function Footer() {
     return (
-      <div>
+      <div id='foooter'>
         <p>© 2022. All Rights Reserved</p>
         <a href='https://web.whatsapp.com/'>Whatsapp</a>
         <br></br>
