@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 import React from "react";
 import Tour from './tour/Tour';
 
-const Tours = ({tours}) => {
+const Tours = (tours) => {
+    
     return (
         <div id='Tourrs'>
-            {tours.map((x) => (
+            {tours.data.map((x) => (
                 <div key={x.id}>
-                    <Link to={`/x/${x.id}`}>
+                    <Link to={`/city/${x.id}`}>
                     <Tour x={x} /> </Link>
                 </div>
             ))}
