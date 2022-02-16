@@ -2,8 +2,10 @@ import "./TourDetails.css"
 import { useState } from 'react';
 import {useParams} from "react-router-dom";
 function TourDetails(props){
+    
     let  id  = useParams();
-    let tourrr = props.myData.filter(tourrr=>tourrr.id===id)
+    
+    let tourrr = props.data.filter(tourrr=>tourrr.id===id.id)
     const [More, setMore] = useState(false);
     function Click(){
         setMore(!More)
